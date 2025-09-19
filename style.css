@@ -42,10 +42,11 @@ flex-wrap: wrap;
 }
 
 .resume-anchor{
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
 .resume-anchor:hover{
-    color: white;
+    color: #ffffff;
 }
+
