@@ -1,8 +1,8 @@
-.text-color{
-color: gray;
-text-align: left;
-padding-block: 1em;
-font-family: sans-serif;
+.text-color {
+    color: gray;
+    text-align: left;
+    padding-block: 1em;
+    font-family: sans-serif;
 }
 
 .feature-icon {
@@ -11,22 +11,22 @@ font-family: sans-serif;
     border-radius: .75rem;
 }
 
-.skill-tabs{
+.skill-tabs {
     border-radius: 5px;
 }
 
-.background{
+.background {
     background-color: #75757511;
     padding-top: 1em;
 }
 
-.skills-flex{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+.skills-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.flex-icons{
+.flex-icons {
     background-color: #d1d1d1;
     border-radius: 5px;
     color: rgb(57, 50, 50);
@@ -34,8 +34,18 @@ flex-wrap: wrap;
     margin: 10px;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.shad {
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width:360px){
+.profileimg{
+    justify-content: center;
+}
 }
