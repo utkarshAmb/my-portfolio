@@ -28,6 +28,8 @@ function darkMode() {
         document.querySelector("#download").classList.remove("btn-outline-light"); 
         document.querySelector("#work").classList.remove("btn-light"); 
         document.querySelector("#work").classList.add("btn-dark"); 
+        document.querySelector("#profile").classList.remove("shad-dark");
+        document.querySelector("#profile").classList.add("shad");
 //dark mode       
     }else{
         document.firstElementChild.setAttribute("data-bs-theme","dark");
@@ -38,7 +40,9 @@ function darkMode() {
         document.querySelector("#download").classList.add("btn-outline-light");
         document.querySelector("#work").classList.remove("btn-dark"); 
         document.querySelector("#work").classList.add("btn-light"); 
-         
+        document.querySelector("#profile").classList.remove("shad");
+        document.querySelector("#profile").classList.add("shad-dark");
+        
     }
     
 }
