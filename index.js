@@ -46,3 +46,7 @@ function darkMode() {
     }
     
 }
+
+document.querySelector("#work").addEventListener("click", function () {
+    document.getElementById("projects").scrollIntoView({ behavior: 'smooth' });
+})
