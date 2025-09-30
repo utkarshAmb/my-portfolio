@@ -48,5 +48,9 @@ function darkMode() {
 }
 
 document.querySelector("#work").addEventListener("click", function () {
-    document.getElementById("projects").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("projects").scrollIntoView({ behavior: 'smooth', block:"center" });
+})
+
+document.querySelector("#footerEdu").addEventListener("click", function () {
+    document.getElementById("education").scrollIntoView({ behavior: 'smooth', block:"center" });
 })
