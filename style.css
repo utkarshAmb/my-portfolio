@@ -49,6 +49,19 @@
     box-shadow: 1px 1px 30px rgba(150, 148, 148, 0.5);
 }
 
+.tile-shad{
+    border-radius: 15%;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 1);
+    z-index: 5;
+}
+
+.tile-shad-dark{
+    border-radius: 15%;
+    box-shadow: 1px 1px 100px rgb(219, 219, 219);
+    z-index: 5;
+}
+
+
 @media (min-width:360px){
 .profileimg{
     justify-content: center;
