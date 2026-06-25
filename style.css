@@ -1,8 +1,8 @@
 .text-color {
     color: gray;
-    text-align: justify;
     padding-block: 1em;
     font-family: sans-serif;
+    text-align: justify;
 }
 
 .feature-icon {
